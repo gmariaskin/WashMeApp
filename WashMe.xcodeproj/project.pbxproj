@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05E6B80B0F63A45AC2B6725E /* libPods-WashMeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C4CA05D425DBCA9E62DB0 /* libPods-WashMeUITests.a */; };
-		63A53B804EBC0C006BA807E6 /* libPods-WashMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74891AA58D84DAFB323AD3F7 /* libPods-WashMeTests.a */; };
+		26B09981ED02B0D7B64AE6C7 /* Pods_WashMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB33C0692073C4E891785F8 /* Pods_WashMeTests.framework */; };
+		C7CB548E88247CCD106AD75C /* Pods_WashMe_WashMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF05E089641FEFB2C86223 /* Pods_WashMe_WashMeUITests.framework */; };
 		F751442B2A85349600E08830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751442A2A85349600E08830 /* AppDelegate.swift */; };
 		F751442D2A85349600E08830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751442C2A85349600E08830 /* SceneDelegate.swift */; };
 		F75144322A85349600E08830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75144302A85349600E08830 /* Main.storyboard */; };
@@ -61,14 +61,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21419FB23E2FB9123F78EBF6 /* Pods-WashMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-WashMeUITests/Pods-WashMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BB33C0692073C4E891785F8 /* Pods_WashMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBF05E089641FEFB2C86223 /* Pods_WashMe_WashMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashMe_WashMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		312F95178502DD436C2D174D /* Pods-WashMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMeTests.release.xcconfig"; path = "Target Support Files/Pods-WashMeTests/Pods-WashMeTests.release.xcconfig"; sourceTree = "<group>"; };
-		74891AA58D84DAFB323AD3F7 /* libPods-WashMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WashMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F080B33CCD85A0C1F7246C2 /* Pods-WashMe-WashMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMe-WashMeUITests.release.xcconfig"; path = "Target Support Files/Pods-WashMe-WashMeUITests/Pods-WashMe-WashMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		99FF1FABFFAE74164788298A /* Pods-WashMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMe.release.xcconfig"; path = "Target Support Files/Pods-WashMe/Pods-WashMe.release.xcconfig"; sourceTree = "<group>"; };
+		AF1C792B28E153CBCCA9AFF8 /* Pods-WashMe-WashMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMe-WashMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-WashMe-WashMeUITests/Pods-WashMe-WashMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B46FCD6ACCE0C8CF89305E29 /* Pods_WashMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB91F9B23F9A11852E1ABB8 /* Pods-WashMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMe.debug.xcconfig"; path = "Target Support Files/Pods-WashMe/Pods-WashMe.debug.xcconfig"; sourceTree = "<group>"; };
-		BC2C4CA05D425DBCA9E62DB0 /* libPods-WashMeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WashMeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB031969108D37E9EC315D74 /* Pods-WashMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMeUITests.release.xcconfig"; path = "Target Support Files/Pods-WashMeUITests/Pods-WashMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EDE42D5E94D88AC24CCBD687 /* Pods-WashMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashMeTests.debug.xcconfig"; path = "Target Support Files/Pods-WashMeTests/Pods-WashMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F75144272A85349600E08830 /* WashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F751442A2A85349600E08830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A53B804EBC0C006BA807E6 /* libPods-WashMeTests.a in Frameworks */,
+				26B09981ED02B0D7B64AE6C7 /* Pods_WashMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E6B80B0F63A45AC2B6725E /* libPods-WashMeUITests.a in Frameworks */,
+				C7CB548E88247CCD106AD75C /* Pods_WashMe_WashMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				B46FCD6ACCE0C8CF89305E29 /* Pods_WashMe.framework */,
-				74891AA58D84DAFB323AD3F7 /* libPods-WashMeTests.a */,
-				BC2C4CA05D425DBCA9E62DB0 /* libPods-WashMeUITests.a */,
+				1BBF05E089641FEFB2C86223 /* Pods_WashMe_WashMeUITests.framework */,
+				1BB33C0692073C4E891785F8 /* Pods_WashMeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,8 +152,8 @@
 				99FF1FABFFAE74164788298A /* Pods-WashMe.release.xcconfig */,
 				EDE42D5E94D88AC24CCBD687 /* Pods-WashMeTests.debug.xcconfig */,
 				312F95178502DD436C2D174D /* Pods-WashMeTests.release.xcconfig */,
-				21419FB23E2FB9123F78EBF6 /* Pods-WashMeUITests.debug.xcconfig */,
-				CB031969108D37E9EC315D74 /* Pods-WashMeUITests.release.xcconfig */,
+				AF1C792B28E153CBCCA9AFF8 /* Pods-WashMe-WashMeUITests.debug.xcconfig */,
+				5F080B33CCD85A0C1F7246C2 /* Pods-WashMe-WashMeUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -318,6 +318,7 @@
 				F75144462A85349900E08830 /* Sources */,
 				F75144472A85349900E08830 /* Frameworks */,
 				F75144482A85349900E08830 /* Resources */,
+				316B465EB12F988F55C5646F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,7 +354,7 @@
 				};
 			};
 			buildConfigurationList = F75144222A85349500E08830 /* Build configuration list for PBXProject "WashMe" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -429,6 +430,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		316B465EB12F988F55C5646F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WashMe-WashMeUITests/Pods-WashMe-WashMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WashMe-WashMeUITests/Pods-WashMe-WashMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WashMe-WashMeUITests/Pods-WashMe-WashMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		40165BD91B1B3F655C0B909F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,7 +479,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WashMeUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WashMe-WashMeUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -819,7 +837,7 @@
 		};
 		F751445B2A85349900E08830 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21419FB23E2FB9123F78EBF6 /* Pods-WashMeUITests.debug.xcconfig */;
+			baseConfigurationReference = AF1C792B28E153CBCCA9AFF8 /* Pods-WashMe-WashMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -838,7 +856,7 @@
 		};
 		F751445C2A85349900E08830 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB031969108D37E9EC315D74 /* Pods-WashMeUITests.release.xcconfig */;
+			baseConfigurationReference = 5F080B33CCD85A0C1F7246C2 /* Pods-WashMe-WashMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_WashMe_WashMeUITests {
+  umbrella header "Pods-WashMe-WashMeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_WashMe {
+  umbrella header "Pods-WashMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
