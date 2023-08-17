@@ -224,8 +224,7 @@ class LoginViewController: UIViewController {
     
     
     @objc func registerButtonPressed() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let registerVC = storyboard.instantiateViewController(identifier: "RegisterViewControllerIdentifier") as RegisterViewController
+       let registerVC = RegisterViewController()
         self.navigationController?.pushViewController(registerVC, animated: true)
         
     }
@@ -258,7 +257,7 @@ class LoginViewController: UIViewController {
                     self.errorLabel.text = error!.localizedDescription
                     self.errorLabel.alpha = 1
                 } else {
-                    self.navigationController?.pushViewController(TabBarController(), animated: true)
+                    self.navigationController?.pushViewController(MainTabBarController(), animated: true)
                 }
             }
         }
@@ -266,7 +265,7 @@ class LoginViewController: UIViewController {
     
     private func checkForLoggedIn() {
         
-        let tabBarVC = TabBarController()
+        let tabBarVC = MainTabBarController()
         
         if defaults.bool(forKey: Keys.isLoggedIn) == true {
             self.navigationController?.pushViewController(tabBarVC, animated: true)

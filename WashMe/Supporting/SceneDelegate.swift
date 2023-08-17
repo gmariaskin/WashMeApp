@@ -16,26 +16,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        
-        let loginVC = LoginViewController()
-        let userVC = UserProfileViewController()
-        let homeVC = HomePageViewController()
-        let learnVC = LearnViewController()
-     
-        
-        
-        let navigationController = UINavigationController(rootViewController: loginVC)
        
-        
-        
-        let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [homeVC,learnVC,userVC]
-        
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
-        
+        window = UIWindow(windowScene: windowScene)
+
+           let loginVC = LoginViewController()
+           
+           let navigationController = UINavigationController(rootViewController: loginVC)
+          
+           window?.rootViewController = navigationController
+           window?.makeKeyAndVisible()
+       
         
     }
     

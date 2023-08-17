@@ -11,10 +11,8 @@
 		C7CB548E88247CCD106AD75C /* Pods_WashMe_WashMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF05E089641FEFB2C86223 /* Pods_WashMe_WashMeUITests.framework */; };
 		F751442B2A85349600E08830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751442A2A85349600E08830 /* AppDelegate.swift */; };
 		F751442D2A85349600E08830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751442C2A85349600E08830 /* SceneDelegate.swift */; };
-		F75144322A85349600E08830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75144302A85349600E08830 /* Main.storyboard */; };
 		F75144352A85349600E08830 /* WashMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F75144332A85349600E08830 /* WashMe.xcdatamodeld */; };
 		F75144372A85349900E08830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75144362A85349900E08830 /* Assets.xcassets */; };
-		F751443A2A85349900E08830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75144382A85349900E08830 /* LaunchScreen.storyboard */; };
 		F75144452A85349900E08830 /* WashMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75144442A85349900E08830 /* WashMeTests.swift */; };
 		F751444F2A85349900E08830 /* WashMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751444E2A85349900E08830 /* WashMeUITests.swift */; };
 		F75144512A85349900E08830 /* WashMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75144502A85349900E08830 /* WashMeUITestsLaunchTests.swift */; };
@@ -25,7 +23,7 @@
 		F79DEDB02A878D680018FF13 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F79DEDAF2A878D680018FF13 /* SF-Pro-Display-Bold.otf */; };
 		F79DEDB22A87B7D10018FF13 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDB12A87B7D10018FF13 /* RegisterViewController.swift */; };
 		F79DEDB42A87FE2D0018FF13 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDB32A87FE2D0018FF13 /* HomePageViewController.swift */; };
-		F79DEDB62A8800020018FF13 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDB52A8800020018FF13 /* TabBarController.swift */; };
+		F79DEDB62A8800020018FF13 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDB52A8800020018FF13 /* MainTabBarController.swift */; };
 		F79DEDB82A8802D20018FF13 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDB72A8802D20018FF13 /* UserProfileViewController.swift */; };
 		F79DEDBA2A8802DB0018FF13 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDB92A8802DB0018FF13 /* LearnViewController.swift */; };
 		F79DEDBF2A88111C0018FF13 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DEDBE2A88111C0018FF13 /* ForgotPasswordViewController.swift */; };
@@ -73,10 +71,8 @@
 		F75144272A85349600E08830 /* WashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F751442A2A85349600E08830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F751442C2A85349600E08830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F75144312A85349600E08830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75144342A85349600E08830 /* WashMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WashMe.xcdatamodel; sourceTree = "<group>"; };
 		F75144362A85349900E08830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F75144392A85349900E08830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F751443B2A85349900E08830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F75144402A85349900E08830 /* WashMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75144442A85349900E08830 /* WashMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashMeTests.swift; sourceTree = "<group>"; };
@@ -90,7 +86,7 @@
 		F79DEDAF2A878D680018FF13 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "../../../../../../Library/Fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		F79DEDB12A87B7D10018FF13 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F79DEDB32A87FE2D0018FF13 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		F79DEDB52A8800020018FF13 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F79DEDB52A8800020018FF13 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F79DEDB72A8802D20018FF13 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		F79DEDB92A8802DB0018FF13 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		F79DEDBE2A88111C0018FF13 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
@@ -183,8 +179,8 @@
 		F75144292A85349600E08830 /* WashMe */ = {
 			isa = PBXGroup;
 			children = (
-				F751443B2A85349900E08830 /* Info.plist */,
 				F79DEDC42A88B3790018FF13 /* GoogleService-Info.plist */,
+				F751443B2A85349900E08830 /* Info.plist */,
 				F79DEDD32A88BB630018FF13 /* Models */,
 				F79DEDC22A88B3460018FF13 /* Supporting */,
 				F79DED462A8767570018FF13 /* Controller */,
@@ -216,7 +212,7 @@
 		F79DED462A8767570018FF13 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F79DEDB52A8800020018FF13 /* TabBarController.swift */,
+				F79DEDB52A8800020018FF13 /* MainTabBarController.swift */,
 				F79DEDB72A8802D20018FF13 /* UserProfileViewController.swift */,
 				F79DEDB92A8802DB0018FF13 /* LearnViewController.swift */,
 				F79DED442A8767330018FF13 /* LoginViewController.swift */,
@@ -233,8 +229,6 @@
 				F79DEDA62A878CB00018FF13 /* R.generated.swift */,
 				F751442A2A85349600E08830 /* AppDelegate.swift */,
 				F75144362A85349900E08830 /* Assets.xcassets */,
-				F75144302A85349600E08830 /* Main.storyboard */,
-				F75144382A85349900E08830 /* LaunchScreen.storyboard */,
 				F751442C2A85349600E08830 /* SceneDelegate.swift */,
 				F79DEDD62A88CF970018FF13 /* Utilities.swift */,
 				F79DEDE72A8BEE730018FF13 /* Constants.swift */,
@@ -381,11 +375,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F751443A2A85349900E08830 /* LaunchScreen.storyboard in Resources */,
 				F75144372A85349900E08830 /* Assets.xcassets in Resources */,
 				F79DEDB02A878D680018FF13 /* SF-Pro-Display-Bold.otf in Resources */,
 				F79DEDC52A88B3790018FF13 /* GoogleService-Info.plist in Resources */,
-				F75144322A85349600E08830 /* Main.storyboard in Resources */,
 				F79DEDA52A878C920018FF13 /* SF-Pro-Display-Regular.otf in Resources */,
 				F79DEDAE2A878D090018FF13 /* Kanit-SemiBold.ttf in Resources */,
 			);
@@ -535,7 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F79DED452A8767330018FF13 /* LoginViewController.swift in Sources */,
-				F79DEDB62A8800020018FF13 /* TabBarController.swift in Sources */,
+				F79DEDB62A8800020018FF13 /* MainTabBarController.swift in Sources */,
 				F79DEDBF2A88111C0018FF13 /* ForgotPasswordViewController.swift in Sources */,
 				F79DEDD72A88CF970018FF13 /* Utilities.swift in Sources */,
 				F79DEDE42A8BE2BB0018FF13 /* ForgotPasswordVCExtension.swift in Sources */,
@@ -589,25 +581,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		F75144302A85349600E08830 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F75144312A85349600E08830 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F75144382A85349900E08830 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F75144392A85349900E08830 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		F75144522A85349900E08830 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -659,13 +632,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -713,12 +687,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -738,7 +713,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -773,7 +747,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

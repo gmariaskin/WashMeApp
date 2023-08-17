@@ -262,7 +262,7 @@ class RegisterViewController: UIViewController {
     
     func transitionToHomePage(with name: String){
         print("Transitioning to Home Page with name: \(name)")
-        let tabBarVC = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! TabBarController
+        let tabBarVC = MainTabBarController()
         
         view.window?.rootViewController = tabBarVC
         view.window?.makeKeyAndVisible()

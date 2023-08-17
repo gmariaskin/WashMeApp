@@ -31,11 +31,13 @@ class UserProfileViewController: UIViewController {
     }
     
     @objc func logOut() {
-       let defaults = UserDefaults()
+        
+        let defaults = UserDefaults()
         defaults.set(false, forKey: Keys.isLoggedIn)
-        let loginVC = LoginViewController()
-        self.navigationController?.pushViewController(loginVC, animated: true)
+        navigationController?.popViewController(animated: true)
+        print(navigationController!)
     }
+    
     
     private func setupConstraints() {
         
